@@ -1,0 +1,91 @@
+/*
+ * Main styles, written in SCSS.
+ * Examples taken from http://sass-lang.com/guide
+ *
+ */
+/*if you want to change default color bootstrap css(defalt/hover/focus)*****/
+
+* {
+  box-sizing: border-box;
+}
+a {
+  outline: none;
+}
+
+a:hover, a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+a:focus, footer a:hover {
+  outline: none;
+}
+
+::selection {
+  background: $color-selection;
+  color: $secondary;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background: $color-selection;
+  color: $secondary;
+  text-shadow: none;
+}
+
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: $bg-color !important;
+  font-weight: 300;
+}
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: $bg-color !important;
+  opacity: 1;
+  font-weight: 300;
+}
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: $bg-color !important;
+  opacity: 1;
+  font-weight: 300;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: $bg-color !important;
+  font-weight: 300;
+}
+a {
+  outline: 0;
+}
+object, embed {
+  outline: 0;
+}
+input::-moz-focus-inner {
+  border: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.container{
+  max-width: 1170px;
+  text-align: center;
+}
+.wrapper {
+  min-height: 100%;
+}
+section{
+  width: 100%;
+  display: inline-block;
+}
+
+.no-padding{
+  padding: 0 !important;
+}

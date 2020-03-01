@@ -1,0 +1,43 @@
+/* This is the master SCSS file
+ * from which all other SCSS files will be called.
+ * Examples taken from http://sass-lang.com/guide
+ */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+
+/*base CSS*/
+@import '_variables.scss';
+@import '_main.scss';
+@import '_mixins.scss';
+
+/*components CSS*/
+@import '_buttons.scss';
+/*@import '_inputs.scss';*/
+@import '_typography.scss';
+@import '_misc.scss';
+@import '_checkboxes-radio.scss';
+
+@import '_navbar.scss';
+@import '_page-header.scss';
+@import '_dropdown.scss';
+@import '_alerts.scss';
+@import '_images.scss';
+@import '_nucleo-outline.scss';
+@import '_tables.scss';
+@import '_sidebar-and-main-panel.scss';
+@import '_footers.scss';
+@import '_fixed-plugin.scss';
+
+/*dashboard-cards CSS*/
+@import '_cards.scss';
+@import '_card-plain.scss';
+@import '_card-chart.scss';
+@import '_card-user.scss';
+@import '_card-map.scss';
+@import '_card-stats.scss';
+
+/*custom CSS*/
+@import '_custom.scss';
+
+/*mobile CSS*/
+@import '_responsive.scss';
+
